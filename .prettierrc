@@ -1,0 +1,21 @@
+{
+    "trailingComma": "all",
+    "singleQuote": true,
+    "semi": true,
+    "parser": "babel",
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "endOfLine": "lf",
+    "overrides": [
+        {
+            "files": "*.json",
+            "options": {
+                "parser": "json"
+            }
+        }
+    ],
+    "requirePragma": false,
+    "insertPragma": false,
+    "proseWrap": "preserve"
+}
